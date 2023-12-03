@@ -10,4 +10,4 @@ async def get_data():
     data = 'data from backend'
     return data
 
-uvicorn.run(app, host="192.168.1.170", port=25565)
+uvicorn.run(app, host="localhost", port=8000)
